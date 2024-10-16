@@ -1,0 +1,286 @@
+body{
+    /* height: 700vh; */
+  
+}
+@media screen and (max-width: 992px) {
+    .head-img{
+        height: 90vh;
+    }
+    .invester{
+        display: none;
+        
+    }
+}
+@media screen and (min-width: 1000px) {
+    .head-img{
+        height: 70vh;
+    }
+}
+/* @media screen and (max-width: 320px) {
+    .head-img{
+        height: 90vh !important;
+    }
+} */
+@media screen and (max-width: 768px) {
+    .head-display{
+          display: none;
+    }
+    /* .header2-input2{
+        width: 45vw !important;
+    } */
+ }
+@media screen and (max-width: 420px) {
+   body{
+    width: 180vw;
+   }
+}
+@media screen and (max-width: 992px) {
+    .get-app{
+        margin-left: 0px !important;
+    }
+ }
+
+@media screen and (max-width: 500px) {
+    .section4-body-cont{
+        line-height: 1;
+        font-size: 1rem;
+    }
+}
+
+
+.head-img{
+    background-image: url(image/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1vh;
+}
+.nav-bar{
+    background-color: transparent !important;
+    
+}
+
+.head-text-color{
+    color: white !important;
+    font-size: 3vh;
+}
+
+.invester{
+    margin-left: 40vw;
+    margin-right: 2vw;
+}
+.head-h2{
+    font-size: 10vw;
+}
+.section1{
+    height: 40vh;
+    width: 43vw;
+    background-image: url(image/image\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    position: relative;
+    border: .5px  solid gainsboro;
+    border-radius: 10px;
+}
+.section1-text{
+    width: 100%;
+    padding: .5rem;
+    position: absolute;
+    background-color:white;
+    bottom: 0px;
+    font-size: large;
+    line-height: .5;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 1rem;
+}
+/* .section1-p2{
+    line-height: 1;
+} */
+.section2-head{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    font-size: 2.3rem;
+    font-weight: lighter;
+    padding-bottom: 2.5rem;
+    
+}
+.section2-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    /* row-gap: 1rem; */
+    gap: 3vh;
+}
+.section2-body-cont{
+    width: 22rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    flex-grow: 1;
+    
+}
+.span1{
+    font-size: 1rem;
+    color: gray;
+}
+.header2-icon{
+    width: 1rem;
+}
+/* .section3{
+    margin-top: 7rem;
+    background-color: #FFFBF7;
+}
+.section3-wraper-div{
+    display: flex;
+}
+.section3-image{
+  width: 21rem;
+}
+.section3-image-div{
+    margin-left: 12rem;
+    padding: 3rem;
+} */
+.section3-content-header1{
+    font-size: 2.8rem;
+}
+.section3-content-text{
+    font-size: 1.2rem;
+}
+.section3-content-div{
+    padding-top: 4rem;
+    line-height: 2;
+}
+.section3-radio{
+    margin-top: 1rem;
+}
+
+
+#email{
+   
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#Phone{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 3rem;
+}
+#typeemail{
+    width: 18rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+#submitemail{
+    height: 3rem;
+    width: 8rem;
+    background-color: #E03546;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0px;
+}
+.section3-foot{
+    font-size: .9rem;
+    color: rgb(197, 193, 193);
+    margin-top: 1rem;
+}
+.section3-foot-image{
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+.ancor{
+    text-decoration: inherit;
+}
+.ancor:visited{
+    color: black;
+}
+.section4-body-cont{
+    height: 5rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:rgb(112, 110, 110);
+    
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.footer-main{
+    margin-top: 7rem;
+}
+.footer1{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+}
+.footer1-image1{
+    height: 2rem;
+}
+.footer-india{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    gap: 5px;
+    border-radius: 5px;
+}
+.flag{
+    width: 2rem;
+}
+.india-text{
+    margin-top: 10px;
+}
+.footer1-div2{
+    display: flex;
+    gap: 1rem;
+}
+.footer2{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    gap: 9vw;
+    flex-wrap: wrap;
+
+}
+.footer2-div1{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    flex-grow: 1;
+}
+.small{
+    color: rgb(150, 149, 149);
+
+}
+.sociallinks{
+     width: 10rem;
+}
+.footer3{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   
+}
+.footer3 p{
+    margin-top: 1rem;
+    font-size: .9rem;
+    opacity: .5;
+}
